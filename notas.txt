@@ -1,0 +1,12 @@
+NOTA:
+PONER LAS APLICACIONES traefik.exe y consul.exe EN LA CARPETA app-traefik
+Ejecutar:
+- Ejecutar con quarkusBuild el programa app_authors
+- Entrar a la carpeta de app-authors y construir la imagen docker
+docker build -t app_authors .
+- Ejecutar con quarkusBuild el programa app_books
+- Entrar a la carpeta de app-books y construir la imagen docker
+docker build -t app_book .
+- Ejecutar desde la carpeta del proyecto libreria
+docker-compose up
+- Ver en docker Desktop que se esten ejecutando los 7 servicios

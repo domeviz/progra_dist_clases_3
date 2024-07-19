@@ -1,0 +1,15 @@
+api:
+  insecure: true
+  dashboard: true
+entryPoints:
+  http:
+    address: ":7070"
+providers:
+ # file:
+  #  filename: apps.yml
+   # watch: true
+  consulCatalog:
+    refreshInterval: 10s
+    exposedByDefault: false
+    endpoint:
+      address: "127.0.0.1:8500"

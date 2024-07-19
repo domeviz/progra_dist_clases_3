@@ -1,0 +1,6 @@
+cd C:\Users\fing.labcom\Documents\Programacion Distribuida\Programacion Distribuida\app_authors\build\quarkus-app
+java -Dquarkus.http.port=9090 -jar quarkus-run.jar
+java -Dquarkus.http.port=9091 -jar quarkus-run.jar
+
+cd C:\Users\fing.labcom\Documents\Programacion Distribuida\Programacion Distribuida\app_books\build\quarkus-app
+java -Dquarkus.http.port=8090 -jar quarkus-run.jar
